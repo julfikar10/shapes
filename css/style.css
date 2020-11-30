@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.square{
+    height: 140px;
+    width: 140px;
+    background-color: rgb(179, 195, 31);
+    margin-left: -88px;
+
+
+}
+.square h2{
+    color: rgb(10, 0, 0);
+    text-align: center;
+   
+    
+    
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin: 5px;
+}
+.circle h2{
+    text-align: center;
+}
+.oval{
+    background-color: cadetblue;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.oval h2{
+    text-align: center;
+}
+.rectangle{
+    height: 100px;
+    width: 200px;
+    background-color:yellow;
+}
+.rectangle h2{
+    text-align: center;
+}
+.triangleup{
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 140px solid #555;
+}
+.triangleup h3{
+    margin-left: -19px;
+    margin-top: 91px;
+}
+.triangledown{
+    width: 0;
+    height: 0;
+    border-left:70px solid transparent;
+    border-right:70px solid transparent;
+    border-top:140px solid goldenrod
+}
+.triangledown h4{
+    margin-top: -127px;
+    margin-left: -24px;
+    
+}
+.triangleleft{
+    width: 0;
+    height: 0;
+    border-top:70px solid transparent;
+    border-bottom:70px solid transparent;
+    border-right:140px solid goldenrod;
+    margin: 15px;
+
+}
+.triangleleft h4{
+    margin-left: 72px;
+    margin-top: -18px;
+    
+}
+.triangleright{
+    width: 0;
+    height: 0;
+    border-top:70px solid transparent;
+    border-bottom:70px solid transparent;
+    border-left:140px solid rgb(109, 89, 209);
+    margin-right: -76px;
+}
+.triangleright h4{
+    margin-left: -140px;
+    margin-top: -21px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.green{
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    margin: auto;
+    
+}
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+ h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.bar{
+    height: 306px;
+    width: 4px;
+    background-color:black;
+}
